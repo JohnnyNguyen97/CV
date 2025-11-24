@@ -19,10 +19,12 @@ export default function ProjectCard({
 }: ProjectCardProps) {
   return (
     <Link href={href}>
-      <Card className="cursor-pointer transition hover:shadow-lg">
+      <Card className="hover-glow bg-[var(--card-bg)] border border-[var(--card-border)] rounded-xl cursor-pointer transition p-4">
         <CardHeader>
-          <CardTitle>{title}</CardTitle>
-          <CardDescription>{description}</CardDescription>
+          <CardTitle className="text-[var(--primary)]">{title}</CardTitle>
+          <CardDescription className="text-zinc-400">
+            {description}
+          </CardDescription>
         </CardHeader>
       </Card>
     </Link>
