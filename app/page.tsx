@@ -11,24 +11,30 @@ export default function Home() {
           My current projects.
         </h2>
 
-        <div className="flex flex-col gap-6 items-center text-center">
-          <ProjectCard
-            title="Work Schedule OCR Project"
-            description="An application which extracts and organizes work schedules from images using OCR technology."
-            href="/projects/work-schedule-ocr"
-          />
+        <div className="grid gap-6 items-stretch items-center text-center">
+          <div className="w-[650px] h-[260px] items-center mx-auto">
+            <ProjectCard
+              title="Work Schedule OCR Project"
+              description="An application which extracts and organizes work schedules from images using OCR technology."
+              href="/projects/work-schedule-ocr"
+            />
+          </div>
 
-          <ProjectCard
-            title="MMA Stats Tracker"
-            description="This project tracks and analyzes MMA fighter statistics to provide insights and performance metrics. This Project is still under development. I will be doing this project in React with a .NET API."
-            href="/projects/mma-stats-tracker"
-          />
+          <div className="w-[650px] h-[260px] items-center mx-auto">
+            <ProjectCard
+              title="MMA Stats Tracker"
+              description="This project tracks and analyzes MMA fighter statistics to provide insights and performance metrics. This Project is still under development. I will be doing this project in React with a .NET API."
+              href="/projects/mma-stats-tracker"
+            />
+          </div>
 
-          <ProjectCard
-            title="Data Structures and Algorithms Journal"
-            description="This project card showcases my progress in data structures and algorithms. I practicing different sorting algorithms and data strutures in Python, and doing LeetCode problems to see if learned anything."
-            href="/projects/data-structures-algorithms-journal"
-          />
+          <div className="w-[650px] h-[260px] items-center mx-auto">
+            <ProjectCard
+              title="Data Structures and Algorithms Journal"
+              description="This project card showcases my progress in data structures and algorithms. I practicing different sorting algorithms and data strutures in Python, and doing LeetCode problems to see if learned anything."
+              href="/projects/data-structures-algorithms-journal"
+            />
+          </div>
         </div>
       </section>
     </main>

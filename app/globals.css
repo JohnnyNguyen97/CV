@@ -5,8 +5,8 @@
 
 /* THEME VARIABLES */
 :root {
-  --background: #000000;
-  --foreground: #e5e7eb;
+  --background: #0e0606;
+  --foreground: #0b3385;
 
   --primary: #3b82f6;
   --primary-glow: #60a5fa;
@@ -17,7 +17,7 @@
 }
 
 /* Light mode fallback (optional) */
-@media (prefers-color-scheme: light) {
+@media (prefers-color-scheme: dark) {
   :root {
     --background: #f1f5f9;
     --foreground: #0f172a;

@@ -18,9 +18,9 @@ export default function ProjectCard({
   href,
 }: ProjectCardProps) {
   return (
-    <Link href={href}>
-      <Card className="hover-glow bg-[var(--card-bg)] border border-[var(--card-border)] rounded-xl cursor-pointer transition p-4">
-        <CardHeader>
+    <Link href={href} className="h-full">
+      <Card className="h-full flex flex-col cursor-pointer transition hover:shadow-lg">
+        <CardHeader className="flex-grow">
           <CardTitle className="text-[var(--primary)]">{title}</CardTitle>
           <CardDescription className="text-zinc-400">
             {description}
