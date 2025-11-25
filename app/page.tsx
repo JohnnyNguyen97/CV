@@ -7,11 +7,11 @@ export default function Home() {
       <Hero />
 
       <section className="px-8 py-16">
-        <h2 className="text-3xl font-semibold mb-8 text-blue-400">
+        <h2 className="text-3xl font-semibold mb-8 items-center text-center text-blue-400">
           My current projects.
         </h2>
 
-        <div className="grid sm:grid-cols-2 gap-6">
+        <div className="flex flex-col gap-6 items-center text-center">
           <ProjectCard
             title="Work Schedule OCR Project"
             description="An application which extracts and organizes work schedules from images using OCR technology."

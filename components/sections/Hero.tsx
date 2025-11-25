@@ -1,6 +1,6 @@
 export default function Hero() {
   return (
-    <section className="min-h-[70vh] w-full flex flex-col justify-center items-start gap-6 px-8 py-32">
+    <section className="min-h-[70vh] w-full flex flex-col justify-center items-center text-center gap-6 px-8 py-32">
       <h1 className="text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-blue-600">
         Hello, I am Johnny
       </h1>
