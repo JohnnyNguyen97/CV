@@ -2,6 +2,7 @@ import Hero from "@/components/sections/Hero";
 import ProjectCard from "@/components/ProjectCard";
 import Skills from "@/components/sections/Skills";
 import Experience from "@/components/sections/Experience";
+import Tools from "@/components/sections/Tools";
 
 export default function Home() {
   return (
@@ -9,8 +10,8 @@ export default function Home() {
       <Hero />
 
       <Skills />
+      <Tools />
       <Experience />
-
       <section className="px-8 py-16">
         <h2 className="text-3xl font-semibold mb-8 items-center text-center text-blue-400">
           My current projects.

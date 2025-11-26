@@ -1,5 +1,14 @@
 export default function Skills() {
-  const skills = ["C#/ .NET", "SQL", "Unity"];
+  const skills = [
+    "C#/ .NET",
+    "SQL",
+    "NoSQL/MongoDB",
+    "Kotlin/Jetpack Compose",
+    "Blazor WebAsembly",
+    "ASP.NET",
+    "React/ Next.js",
+    "Python",
+  ];
 
   return (
     <section className="px-8 py-16 flex flex-col items-center text-center gap-6">
