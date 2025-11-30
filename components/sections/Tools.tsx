@@ -15,13 +15,13 @@ export default function Tools() {
 
   return (
     <section className="px-8 py-16 flex flex-col items-center text-center gap-6">
-      <h2 className="text-3xl font-semibold text-blue-400">Tools</h2>
+      <h2 className="text-3xl font-semibold text-blue-300">Tools</h2>
 
       <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4 max-w-3xl">
         {tools.map((tool) => (
           <div
             key={tool}
-            className="px-4 py-2 rounded-xl bg-black/40 text-blue-300 border border-blue-700/30 shadow-sm"
+            className="h-20 w-full flex items-center justify-center rounded-xl bg-black/40 text-blue 300 border border-blue-700/30 shadow-sm text-sm text-center px-2"
           >
             {tool}
           </div>

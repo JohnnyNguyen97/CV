@@ -18,7 +18,7 @@ export default function Skills() {
         {skills.map((skill) => (
           <div
             key={skill}
-            className="px-4 py-2 rounded-xl bg-black/40 text-blue-300 border border-blue-700/30 shadow-sm"
+            className="h-20 w-full flex items-center justify-center rounded-xl bg-black/40 text-blue 300 border border-blue-700/30 shadow-sm text-sm text-center px-2"
           >
             {skill}
           </div>
