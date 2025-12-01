@@ -8,6 +8,9 @@ export default function Skills() {
     "ASP.NET",
     "React/ Next.js",
     "Python",
+    "Unity",
+    "Git/GitHub",
+    "HTML/CSS",
   ];
 
   return (
