@@ -44,8 +44,14 @@ export default function ProjectCard({
     <div onClick={handleCardClick} className="h-full cursor-pointer">
       <Card className="h-full flex flex-col transition hover:shadow-lg overflow-hidden">
         {image && (
-          <div className="relative w-full h-48 overflow-hidden bg-zinc-200 dark:bg-zinc-800">
-            <Image src={image} alt={title} fill className="object-cover" />
+          <div className="relative w-full h-64 overflow-hidden bg-zinc-200 dark:bg-zinc-800">
+            <Image
+              src={image}
+              alt={title}
+              fill
+              sizes="100%"
+              className="object-contain"
+            />
           </div>
         )}
         <CardHeader className="flex-grow flex flex-col">
