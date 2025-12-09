@@ -21,7 +21,8 @@ export default function Home() {
           <div className="w-[650px] h-[260px] items-center mx-auto">
             <ProjectCard
               title="Work Schedule OCR Project"
-              description="An application which extracts and organizes work schedules from images using OCR technology."
+              description="An application which extracts and organizes work schedules from images using OCR technology. The application includes salary calculation
+              and tax deductions. Furthermore the app has a simple UI built with PythonSimpleGUI. The app receives a screenshot as an input and calculates shifts, hours and salary."
               href="/projects/work-schedule-ocr"
             />
           </div>
