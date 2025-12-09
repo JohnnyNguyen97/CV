@@ -17,31 +17,27 @@ export default function Home() {
           My current projects.
         </h2>
 
-        <div className="grid gap-6 items-stretch items-center text-center">
-          <div className="w-[650px] h-[260px] items-center mx-auto">
-            <ProjectCard
-              title="Work Schedule OCR Project"
-              description="An application which extracts and organizes work schedules from images using OCR technology. The application includes salary calculation
-              and tax deductions. Furthermore the app has a simple UI built with PythonSimpleGUI. The app receives a screenshot as an input and calculates shifts, hours and salary."
-              href="/projects/work-schedule-ocr"
-            />
-          </div>
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-7xl mx-auto">
+          <ProjectCard
+            title="Work Schedule OCR Project"
+            description="An application which extracts and organizes work schedules from images using OCR technology. The application includes salary calculation and tax deductions. Built with PythonSimpleGUI."
+            href="https://github.com/JohnnyNguyen97/Vagtplan_OCR"
+            image="/images/vagtplan-ocr.png"
+            githubLink="https://github.com/JohnnyNguyen97/Vagtplan_OCR"
+            isExternal={true}
+          />
 
-          <div className="w-[650px] h-[260px] items-center mx-auto">
-            <ProjectCard
-              title="MMA Stats Tracker"
-              description="This project tracks and analyzes MMA fighter statistics to provide insights and performance metrics. This Project is still under development. I will be doing this project in React with a .NET API."
-              href="/projects/mma-stats-tracker"
-            />
-          </div>
+          <ProjectCard
+            title="MMA Stats Tracker"
+            description="This project tracks and analyzes MMA fighter statistics to provide insights and performance metrics. Currently under development using React with a .NET API."
+            href="/projects/mma-stats-tracker"
+          />
 
-          <div className="w-[650px] h-[260px] items-center mx-auto">
-            <ProjectCard
-              title="Data Structures and Algorithms Journal"
-              description="This project card showcases my progress in data structures and algorithms. I practicing different sorting algorithms and data strutures in Python, and doing LeetCode problems to see if learned anything."
-              href="/projects/data-structures-algorithms-journal"
-            />
-          </div>
+          <ProjectCard
+            title="Data Structures and Algorithms Journal"
+            description="This project showcases my progress in data structures and algorithms. I practice different sorting algorithms and data structures in Python, and solve LeetCode problems."
+            href="/projects/data-structures-algorithms-journal"
+          />
         </div>
       </section>
     </main>
