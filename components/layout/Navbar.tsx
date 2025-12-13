@@ -1,20 +1,39 @@
+import ThemeToggle from "@/components/layout/ThemeToggle";
+
 export default function Navbar() {
   return (
-    <nav className="w-full py-4 px-6 flex justify-between items-center border-b border-neutral-200 dark:border-neutral-800">
-      <h1 className="text-xl font-bold">Portfolio</h1>
-      <div className="space-x-4">
-        <a href="/" className="hover:underline">
-          Homepage
-        </a>
-        <a href="/projects" className="hover:underline">
-          Projects
-        </a>
-        <a href="/about" className="hover:underline">
-          About
-        </a>
-        <a href="/contact" className="hover:underline">
-          Contact
-        </a>
+    <nav
+      className="w-full py-4 px-6 flex justify-between items-center border-b"
+      style={{ borderColor: "var(--card-border)" }}
+    >
+      <h1 className="text-xl font-bold text-[color:var(--primary)]">
+        Portfolio
+      </h1>
+      <div className="flex items-center space-x-4">
+        <div className="hidden md:flex space-x-4">
+          <a href="/" className="hover:underline text-[color:var(--muted)]">
+            Homepage
+          </a>
+          <a
+            href="/projects"
+            className="hover:underline text-[color:var(--muted)]"
+          >
+            Projects
+          </a>
+          <a
+            href="/about"
+            className="hover:underline text-[color:var(--muted)]"
+          >
+            About
+          </a>
+          <a
+            href="/contact"
+            className="hover:underline text-[color:var(--muted)]"
+          >
+            Contact
+          </a>
+        </div>
+        <ThemeToggle />
       </div>
     </nav>
   );

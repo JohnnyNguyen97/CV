@@ -42,27 +42,27 @@ export default function ProjectCard({
 
   return (
     <div onClick={handleCardClick} className="h-full cursor-pointer">
-      <Card className="h-full flex flex-col transition hover:shadow-lg overflow-hidden">
+      <Card className="h-full flex flex-col transition hover:shadow-lg hover-glow overflow-hidden min-h-[18rem]">
         {image && (
-          <div className="relative w-full h-64 overflow-hidden bg-zinc-200 dark:bg-zinc-800">
+          <div className="relative w-full h-64 overflow-hidden bg-[color:var(--card-bg)]">
             <Image
               src={image}
               alt={title}
               fill
               sizes="100%"
-              className="object-contain"
+              className="object-cover"
             />
           </div>
         )}
         <CardHeader className="flex-grow flex flex-col">
-          <CardTitle className="text-[var(--primary)]">{title}</CardTitle>
-          <CardDescription className="text-zinc-400 flex-grow">
+          <CardTitle className="text-[color:var(--primary)]">{title}</CardTitle>
+          <CardDescription className="text-[color:var(--muted)] flex-grow">
             {description}
           </CardDescription>
           {githubLink && (
             <button
               onClick={handleGithubClick}
-              className="text-blue-600 dark:text-blue-400 hover:underline text-sm mt-2 text-left"
+              className="text-[color:var(--primary)] hover:underline text-sm mt-2 text-left"
             >
               View on GitHub →
             </button>
