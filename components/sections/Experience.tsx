@@ -6,7 +6,7 @@ export default function Experience() {
       </h2>
       <div className="space-y-8 text-zinc-400">
         <div>
-          <h3 className="text-xl font-semibold text-blue-800 text-center">
+          <h3 className="text-xl font-semibold title-gradient text-center">
             Novo Nordisk — Intern/Developer (2024–2025)
           </h3>
           <ul className="list-disc list-inside mt-2 space-y-1 text-center">

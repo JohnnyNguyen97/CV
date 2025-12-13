@@ -6,9 +6,7 @@ export default function Navbar() {
       className="w-full py-4 px-6 flex justify-between items-center border-b"
       style={{ borderColor: "var(--card-border)" }}
     >
-      <h1 className="text-xl font-bold text-[color:var(--primary)]">
-        Portfolio
-      </h1>
+      <h1 className="text-xl font-bold title-gradient">Portfolio</h1>
       <div className="flex items-center space-x-4">
         <div className="hidden md:flex space-x-4">
           <a href="/" className="hover:underline text-[color:var(--muted)]">
