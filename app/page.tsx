@@ -36,6 +36,9 @@ export default function Home() {
             title="Data Structures and Algorithms Journal"
             description="This project showcases my progress in data structures and algorithms. I practice different sorting algorithms and data structures in Python, and solve LeetCode problems."
             href="/projects/data-structures-algorithms-journal"
+            image="/images/Grokking.png"
+            githubLink="https://github.com/JohnnyNguyen97/algorithms-journal"
+            isExternal={true}
           />
         </div>
       </section>
