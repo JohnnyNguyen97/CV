@@ -30,6 +30,7 @@ export default function Home() {
             title="MMA Stats Tracker"
             description="This project tracks and analyzes MMA fighter statistics to provide insights and performance metrics. Currently under development using React with a .NET API."
             href="/projects/mma-stats-tracker"
+            image="/images/maxholloway.png"
           />
 
           <ProjectCard
