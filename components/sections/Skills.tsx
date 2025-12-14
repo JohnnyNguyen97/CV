@@ -15,9 +15,7 @@ export default function Skills() {
 
   return (
     <section className="px-8 py-16 flex flex-col items-center text-center gap-6">
-      <h2 className="text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-800 to-blue-900">
-        Skills & Tech
-      </h2>
+      <h2 className="text-3xl font-bold title-gradient">Skills & Tech</h2>
 
       <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4 max-w-3xl">
         {skills.map((skill) => (

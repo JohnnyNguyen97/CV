@@ -7,10 +7,8 @@ export default function ThemeToggle() {
     if (typeof window === "undefined") return "dark";
     const saved = localStorage.getItem("theme") as "dark" | "light" | null;
     if (saved) return saved;
-    return window.matchMedia &&
-      window.matchMedia("(prefers-color-scheme: dark)").matches
-      ? "dark"
-      : "light";
+    // Default to dark by design
+    return "dark";
   });
 
   useEffect(() => {

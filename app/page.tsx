@@ -12,8 +12,8 @@ export default function Home() {
       <Tools />
       <Experience />
       <section className="px-8 py-16">
-        <h2 className="text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-800 to-blue-900 mb-8 text-center">
-          My current projects.
+        <h2 className="text-3xl font-bold title-gradient mb-8 text-center">
+          Projects
         </h2>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-7xl mx-auto">

@@ -1,7 +1,7 @@
 export default function Experience() {
   return (
     <section className="px-8 py-16 max-w-3xl mx-auto">
-      <h2 className="text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-800 to-blue-900 mb-8 text-center">
+      <h2 className="text-3xl font-bold title-gradient mb-8 text-center">
         Experience
       </h2>
       <div className="space-y-8 text-zinc-400">
