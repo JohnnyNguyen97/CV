@@ -27,7 +27,7 @@ export default function Home() {
           />
 
           <ProjectCard
-            title="MMA Stats Tracker"
+            title="MMA Stats Tracker Live"
             description="This project tracks and analyzes MMA fighter statistics to provide insights and performance metrics. Currently under development using React with a .NET API."
             href="/projects/mma-stats-tracker"
             image="/images/maxholloway.png"
